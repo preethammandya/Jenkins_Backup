@@ -1,0 +1,19 @@
+Started by user [8mha:////4GyrfaY3ZoOUl5l6740P6LJLvRdZejeOGqYSBx2aUNOpAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZB/dLi1CL94ozMssTcgtKiRCMA6yfC+MYAAAA=[0mshiva
+Running as SYSTEM
+Building remotely on [8mha:////4EVDmCFOBCDdJpawZBmvwFO6yeflqC1xDproZIWm4DjUAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6uZW6xTmJZakAto46BMcAAAA=[0mmy-slave in workspace /home/jenkins/workspace/java_project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/java_project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/preethammandya/java_project.git # timeout=10
+Fetching upstream changes from https://github.com/preethammandya/java_project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/preethammandya/java_project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision e134f4f9afc33fbccbe4d3a8629c267baeb50305 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e134f4f9afc33fbccbe4d3a8629c267baeb50305 # timeout=10
+Commit message: "war file added"
+ > git rev-list --no-walk e134f4f9afc33fbccbe4d3a8629c267baeb50305 # timeout=10
+Finished: SUCCESS
